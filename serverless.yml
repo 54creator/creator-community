@@ -1,0 +1,10 @@
+ServerlessCN:
+  component: '@serverless/tencent-website'
+  inputs:
+    code:
+      src: ./public
+      index: index.html
+      error: index.html
+    region: ap-hongkong
+    bucketName: serverlesscn
+    protocol: http
